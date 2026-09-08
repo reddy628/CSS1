@@ -1,0 +1,38 @@
+footer{
+    height: 300px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    width: 300px;
+}
+#box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+}
+#box2{
+    text-align: justify;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input,textarea{
+    background: rgb(247, 235, 235);
+    border: none;
+    border-radius: 5px;
+}
+button{
+    background: rgb(98, 0, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+}

@@ -1,0 +1,15 @@
+div p{
+    color:green;
+}
+
+div>p{
+    background-color: black;
+}
+
+div+p{
+    color: rgb(72, 0, 255);
+}
+
+div~p{
+    text-align: center;
+}
